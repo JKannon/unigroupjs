@@ -1,0 +1,317 @@
+<div class="container raqOpenFormContainer noPadding col-md-12">
+            <div class="raqTransparentLayer"></div>
+            <div class="raqOpenForm">
+                <div class="raqForm container">
+
+                    <!-- RAQ form guts-->
+                    <form class="form-inline" autocomplete="off">
+                        <fieldset id="contactForm">
+                            <!-- RAQ Form Top-->
+                            <div class="raqFormTop container col-md-12 noPadding">
+                                <!-- Form Name -->
+                                <legend class="col-xs-11 noPadding">
+                                    <div>CONTACT A LOGISTICS SPECIALIST</div>
+                                </legend>
+                                <div class="closeRaqFormBg closeRaqFormTop" onclick="location.href='#';" style="display: block;">
+                                    <div class="closeRaqFormAction closeButton col-xs-1">
+                                        <p><i class="glyphicon glyphicon-remove"></i></p>
+                                    </div>
+                                </div>
+                                <div id="errorContainer" class="container col-md-12 noPadding errorMessage">
+                                    <div class="errorMessageContainer">A system error has occurred. Please try again at a later time.</div>
+                                </div>
+                                <div id="dataValidationErrorContainer" class="container col-md-12 noPadding errorMessage">
+                                    <div id="messages" class="errorMessageContainer"></div>
+                                </div>
+                            </div>
+                            <!-- // RAQ Form Top-->
+
+                            <!-- RAQ Form Inner -->
+                            <div class="raqFormInner noPadding container col-md-12" style="height: 100%;">
+                                <div id="RAQ_contactInfo" class="noPadding container col-md-12">
+                                    <!-- Text input row 1-->
+                                    <div class="container noPadding col-md-12">
+                                        <div class="control-group col-md-4">
+                                            <label class="control-label" for="companyName">Company Name*</label>
+                                            <div class="controls">
+                                                <input id="companyName" name="companyName" type="text" placeholder="" maxlength="100" required="">
+
+                                            </div>
+                                        </div>
+                                        <div class="control-group col-md-4">
+                                            <label class="control-label" for="contactName">Contact Name*</label>
+                                            <div class="controls">
+                                                <input id="contactName" name="contactName" type="text" placeholder="" maxlength="100" required="">
+
+                                            </div>
+                                        </div>
+                                        <div class="control-group col-md-4">
+                                            <label class="control-label" for="positionOrTitle">Position/Title</label>
+                                            <div class="controls">
+                                                <input id="positionOrTitle" name="positionOrTitle" type="text" placeholder="" maxlength="100">
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- // Text input row 1-->
+
+                                    <!-- Text input row 2-->
+                                    <div class="container noPadding col-md-12">
+                                        <div class="control-group col-md-2">
+                                            <label class="control-label" for="city">City</label>
+                                            <div class="controls">
+                                                <input id="city" name="city" type="text" placeholder="" maxlength="100">
+
+                                            </div>
+                                        </div>
+                                        <div class="control-group col-md-2">
+                                            <label class="control-label" for="country">Country</label>
+                                            <div class="controls">
+                                                <select id="country" name="country" type="text" placeholder="">
+													<option value="" selected="">Select</option>
+													<option>U.S.</option>
+													<option>Mexico</option>
+													<option>Canada</option>
+													<option>Other</option>                                                
+												</select>
+                                            </div>
+                                        </div>
+                                        <div class="usaStates control-group col-md-4">
+                                            <label class="control-label" for="country">State</label>
+                                            <div class="controls">
+                                                <select id="USA" name="USA" type="text" placeholder="">
+													<option value="" selected="">Select</option>
+													<option value="AL">Alabama</option>
+													<option value="AK">Alaska</option>
+													<option value="AZ">Arizona</option>
+													<option value="AR">Arkansas</option>
+													<option value="CA">California</option>
+													<option value="CO">Colorado</option>
+													<option value="CT">Connecticut</option>
+													<option value="DE">Delaware</option>
+													<option value="DC">District Of Columbia</option>
+													<option value="FL">Florida</option>
+													<option value="GA">Georgia</option>
+													<option value="HI">Hawaii</option>
+													<option value="ID">Idaho</option>
+													<option value="IL">Illinois</option>
+													<option value="IN">Indiana</option>
+													<option value="IA">Iowa</option>
+													<option value="KS">Kansas</option>
+													<option value="KY">Kentucky</option>
+													<option value="LA">Louisiana</option>
+													<option value="ME">Maine</option>
+													<option value="MD">Maryland</option>
+													<option value="MA">Massachusetts</option>
+													<option value="MI">Michigan</option>
+													<option value="MN">Minnesota</option>
+													<option value="MS">Mississippi</option>
+													<option value="MO">Missouri</option>
+													<option value="MT">Montana</option>
+													<option value="NE">Nebraska</option>
+													<option value="NV">Nevada</option>
+													<option value="NH">New Hampshire</option>
+													<option value="NJ">New Jersey</option>
+													<option value="NM">New Mexico</option>
+													<option value="NY">New York</option>
+													<option value="NC">North Carolina</option>
+													<option value="ND">North Dakota</option>
+													<option value="OH">Ohio</option>
+													<option value="OK">Oklahoma</option>
+													<option value="OR">Oregon</option>
+													<option value="PA">Pennsylvania</option>
+													<option value="RI">Rhode Island</option>
+													<option value="SC">South Carolina</option>
+													<option value="SD">South Dakota</option>
+													<option value="TN">Tennessee</option>
+													<option value="TX">Texas</option>
+													<option value="UT">Utah</option>
+													<option value="VT">Vermont</option>
+													<option value="VA">Virginia</option>
+													<option value="WA">Washington</option>
+													<option value="WV">West Virginia</option>
+													<option value="WI">Wisconsin</option>
+													<option value="WY">Wyoming</option>
+													<option value="AS">American Samoa</option>
+													<option value="GU">Guam</option>
+													<option value="MP">Northern Mariana Islands</option>
+													<option value="PR">Puerto Rico</option>
+													<option value="UM">United States Minor Outlying Islands</option>
+													<option value="VI">Virgin Islands</option>
+													<option value="AA">Armed Forces Americas</option>
+													<option value="AP">Armed Forces Pacific</option>
+													<option value="AE">Armed Forces Others</option>                                                
+												</select>
+                                            </div>
+                                        </div>
+                                        <div class="mexicoStates control-group col-md-4">
+                                            <label class="control-label" for="country">State</label>
+                                            <div class="controls">
+                                                <select id="Mexico" name="Mexico" type="text" placeholder="">
+													<option value="" selected="">Select</option>
+													<option value="Aguascalientes">Aguascalientes</option>
+													<option value="Baja California">Baja California</option>
+													<option value="Baja California Sur">Baja California Sur</option>
+													<option value="Campeche">Campeche</option>
+													<option value="Chiapas">Chiapas</option>
+													<option value="Chihuahua">Chihuahua</option>
+													<option value="Coahuila">Coahuila</option>
+													<option value="Colima">Colima</option>
+													<option value="Distrito Federal">Distrito Federal</option>
+													<option value="Durango">Durango</option>
+													<option value="Estado de Mexico">Estado de Mexico</option>
+													<option value="Guanajuato">Guanajuato</option>
+													<option value="Guerrero">Guerrero</option>
+													<option value="Hidalgo">Hidalgo</option>
+													<option value="Jalisco">Jalisco</option>
+													<option value="Michoacan">Michoacan</option>
+													<option value="Morelos">Morelos</option>
+													<option value="Nayarit">Nayarit</option>
+													<option value="Nuevo Leon">Nuevo Leon</option>
+													<option value="Oaxaca">Oaxaca</option>
+													<option value="Puebla">Puebla</option>
+													<option value="Queretaro">Queretaro</option>
+													<option value="Quintana Roo">Quintana Roo</option>
+													<option value="San Luis Potosi">San Luis Potosi</option>
+													<option value="Sinaloa">Sinaloa</option>
+													<option value="Sonora">Sonora</option>
+													<option value="Tabasco">Tabasco</option>
+													<option value="Tamaulipas">Tamaulipas</option>
+													<option value="Tlaxcala">Tlaxcala</option>
+													<option value="Veracruz">Veracruz</option>
+													<option value="Yucatan">Yucatan</option>
+													<option value="Zacatecas">Zacatecas</option>                                                
+												</select>
+                                            </div>
+                                        </div>
+                                        <div class="canadaProvinces control-group col-md-4">
+                                            <label class="control-label" for="country">Province</label>
+                                            <div class="controls">
+                                                <select id="Canada" name="Canada" type="text" placeholder="">
+													<option value="" selected="">Select</option>
+													<option value="AB">Alberta</option>
+													<option value="BC">British Columbia</option>
+													<option value="MB">Manitoba</option>
+													<option value="NB">New Brunswick</option>
+													<option value="NL">Newfoundland and Labrador</option>
+													<option value="NS">Nova Scotia</option>
+													<option value="ON">Ontario</option>
+													<option value="PE">Prince Edward Island</option>
+													<option value="QC">Quebec</option>
+													<option value="SK">Saskatchewan</option>
+													<option value="NT">Northwest Territories</option>
+													<option value="NU">Nunavut</option>
+													<option value="YT">Yukon</option>               
+												</select>
+                                            </div>
+                                        </div>
+                                        <div class="region control-group col-md-4 activeSelect" style="display: block;">
+                                            <label class="control-label" for="region">Region</label>
+                                            <div class="controls">
+                                                <input id="region" name="region" type="text" placeholder="" maxlength="100" disabled="" style="background: rgb(213, 213, 213);">
+
+                                            </div>
+                                        </div>
+                                        <div class="control-group col-md-4">
+                                            <label class="control-label phoneNumberLabel" for="phoneNumber">Phone Number*</label>
+                                            <div class="controls success">
+                                                <input id="phoneNumber" name="phoneNumber" type="text" placeholder="" required="" maxlength="40">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- // Text input row 2-->
+
+                                    <!-- Text input row 3 -->
+                                    <div class="container noPadding col-md-12">
+
+                                        <div class="control-group col-md-4">
+                                            <label class="control-label" for="email">Email*</label>
+                                            <div class="controls">
+                                                <input id="email" name="email" type="text" placeholder="" required="" maxlength="100">
+                                            </div>
+                                        </div>
+                                        <div class="control-group col-md-4">
+                                            <label class="control-label" for="region">Inquiry Type*</label>
+                                            <div class="controls">
+                                                <select id="services" name="services" type="text" placeholder="" required="">
+													<option value="" disabled="" selected="">Select</option>
+													<option>Employment</option>
+													<option>Truck Transport</option>
+													<option>Intermodal Rail</option>
+													<option>Air Freight</option>
+													<option>Ocean Freight</option>
+													<option>U.S. Customs Brokerage</option>
+													<option>Warehouse/Distribution</option>
+													<option>Installation</option>                                                
+												</select>
+                                            </div>
+                                        </div>
+                                        <div class="control-group col-md-4">
+                                            <label class="control-label" for="email">Notes</label>
+                                            <div class="controls">
+                                                <input id="notes" name="notes" type="text" placeholder="" maxlength="1000">
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <!-- // Text input row 3 -->
+                                </div>
+                                <!-- // Contact Info Section -->
+                            </div>
+                            <!-- RAQ Form Inner -->
+
+                            <!-- Button row-->
+                            <div class="container col-md-12 raqButtons">
+
+                                <div class="control-group submitBtn raqBtn col-xs-6 col-sm-3">
+                                    <input type="submit" class="submit disabled" disabled="disabled">
+                                    <p class="required-p" style="margin-bottom: 71px;">required*</p>
+                                </div>
+
+								<!--  <div class="control-group uploadBtn raqBtn col-xs-6 col-sm-3">
+                                    <div class="fileinputs button">Upload RFP</div>
+                                    <input type="file" class="file" accept=".docx, .docm, .xlsx, .xlsm, .pdf, .jpg, .png"/>
+                                </div> -->
+
+                            </div>
+                            <!-- // Button row-->
+                        </fieldset>
+                    </form>
+                    <!-- // RAQ form guts-->
+                    
+                    <!-- RAQ thank you -->
+                    <fieldset id="thankyou">
+                        <!-- RAQ Form Thank You Top-->
+                        <div class="raqFormTop container col-md-12 noPadding">
+                            <div class="closeRaqFormBg closeRaqFormTop" onclick="location.href='#';" style="display: block;">
+                                <div class="closeRaqFormAction closeButton col-xs-1">
+                                    <p><i class="glyphicon glyphicon-remove"></i></p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- // RAQ Form Thank You Top-->
+
+                        <!-- RAQ Form Thank You Guts -->
+                        <div class="raqThankYou noPadding container col-md-12">                            
+                            <div class="thankyouTitle">Thank You for your interest in UniGroup Logistics.</div>
+                            <div class="thankyouBody">A Logistics Specialist will review your request and follow up shortly.</div>
+                        </div>
+                        <!-- //RAQ Form Thank You Guts -->
+                         <div id="googleAdWordsDiv"></div>
+                       
+                    </fieldset>
+                    <!-- // RAQ thank you -->
+
+
+                </div>
+
+                <!-- close form on click div -->
+                <div class="closeRaqFormBg col-md-12 noPadding" onclick="location.href='#';" style="display: block;">
+                    <div class="closeRaqFormAction">
+                        <div class="closeRaqForm noPadding container"><p><i class="fa fa-arrow-up"></i>&nbsp; Close</p></div>
+                    </div>
+                </div>
+                <!-- close form on click div -->
+
+            </div>
+        </div>
